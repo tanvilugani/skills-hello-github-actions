@@ -20,4 +20,4 @@ jobs:
     if: contains(github.event.pull_request.labels.*.name, 'stage')
     steps:
       - name: Confirm workflow runs
-        run: echo "Staging workflow triggered"
+        run: echo "Staging workflow triggered..."
